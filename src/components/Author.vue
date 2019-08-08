@@ -7,13 +7,15 @@
 		</h1>
 
 		<p class="author__intro">
-			Prosty blog stworzony z wykorzystaniem Vue.js / Gridsome oraz Markdown do tworzenia treści.
+			Blog koncentrujący się na recenzjach seriali - tych dobrych i tych niekoniecznie wartych Waszego czasu.
 		</p>
 
 		<p class="author__links">
-            Zobacz mój profil na: 
-			<a href="//twitter.com/egocentryk">Twitter</a>
-			<a href="//github.com/egocentryk">GitHub</a>
+            Aktualnie oglądane:<br />
+            <a title="Years and Years" href="https://www.imdb.com/title/tt8694364/">Years and Years</a> 
+            <a title="In Treatment" href="https://www.imdb.com/title/tt0835434/">In Treatment</a> 
+            <a title="The Naked Director" href="https://www.imdb.com/title/tt10477528/">The Naked Director</a> 
+            <a title="Band of Brothers" href="https://www.imdb.com/title/tt0185906/">Band of Brothers</a>
 		</p>
 
 	</div>

@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'Vue.js blog',
+    siteName: 'Recenzje Seriali',
     siteDescription: 'Prosty blog w Vue.js, korzystający z Gridsome i Markdown',
 
     plugins: [

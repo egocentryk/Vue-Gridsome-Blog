@@ -23,7 +23,6 @@
   	        color: currentColor;
   	        text-decoration: none;
   	        background-color: var(--bg-color);
-  	        color: red!important;
   	        border-radius: var(--radius);
         }
     }

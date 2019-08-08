@@ -16,8 +16,7 @@
         </main>
 
         <footer class="footer">
-            <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-            <span class="footer__links">Blog stworzony za pomocą Vue.js &amp; Gridsome </a></span>
+            <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}<br /> Made in Vue.js with love!</span>
         </footer>
     </div>
 </template>
