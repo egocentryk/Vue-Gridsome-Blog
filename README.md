@@ -1,3 +1,3 @@
 ## Demo URL
 
-soon...
+https://recenzjeseriali.pl/
