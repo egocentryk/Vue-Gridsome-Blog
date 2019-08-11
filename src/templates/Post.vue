@@ -50,7 +50,8 @@
                     { name: "twitter:description", content: this.$page.post.description },
                     { name: "twitter:title", content: this.$page.post.title },
                     { name: "twitter:image", content: this.$page.post.coverImage.dataUri },
-                    { name: "twitter:creator", content: "@egocentryk" }
+                    { name: "twitter:creator", content: "@egocentryk" },
+                    { property: "og:image", content: this.$page.post.coverImage.dataUri }
                 ]
             }
         }
