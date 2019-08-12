@@ -12,7 +12,7 @@
 
 		<p class="author__links">
             Aktualnie oglądane:<br />
-            <a title="Years and Years" href="https://www.imdb.com/title/tt8694364/">Years and Years</a> 
+            <a title="Succession" href="https://www.imdb.com/title/tt7660850/">Succession</a> 
             <a title="In Treatment" href="https://www.imdb.com/title/tt0835434/">In Treatment</a> 
             <a title="The Naked Director" href="https://www.imdb.com/title/tt10477528/">The Naked Director</a> 
             <a title="Band of Brothers" href="https://www.imdb.com/title/tt0185906/">Band of Brothers</a>

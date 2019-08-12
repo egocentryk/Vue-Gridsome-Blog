@@ -54,7 +54,7 @@
                     { name: "twitter:site", content: "https://twitter.com/egocentryk" },
                     { property: "og:image", content: "https://recenzjeseriali.pl" + this.$page.post.coverImage.src },
                     { property: "og:locale", content: "pl_PL" },
-                    { property: "og:url", content: this.$route.path },
+                    { property: "og:url", content: "https://recenzjeseriali.pl" + this.$route.path },
                     { property: "og:type", content: "website" }
                 ]
             }
