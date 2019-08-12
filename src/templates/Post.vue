@@ -1,32 +1,32 @@
 <template>
-  <Layout>
-    <div class="post-title">
-      <h1 class="post-title__text">
-        {{ $page.post.title }}
-      </h1>
+    <Layout>
+        <div class="post-title">
+            <h1 class="post-title__text">
+                {{ $page.post.title }}
+            </h1>
       
-      <PostMeta :post="$page.post" />
+            <PostMeta :post="$page.post" />
 
-    </div>
+        </div>
     
-    <div class="post content-box">
-      <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage" />
-      </div>
+        <div class="post content-box">
+            <div class="post__header">
+                <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage" />
+            </div>
 
-      <div class="post__content" v-html="$page.post.content" />
+            <div class="post__content" v-html="$page.post.content" />
 
-      <div class="post__footer">
-        <PostTags :post="$page.post" />
-      </div>
-    </div>
+            <div class="post__footer">
+                <PostTags :post="$page.post" />
+            </div>
+        </div>
 
-    <div class="post-comments">
-      <!-- Add comment widgets here -->
-    </div>
+        <div class="post-comments">
+            <!-- Add comment widgets here -->
+        </div>
 
-    <Author class="post-author" />
-  </Layout>
+        <Author class="post-author" />
+    </Layout>
 </template>
 
 <script>
@@ -49,9 +49,13 @@
                     { name: "twitter:card", content: "summary_large_image" },
                     { name: "twitter:description", content: this.$page.post.description },
                     { name: "twitter:title", content: this.$page.post.title },
-                    { name: "twitter:image", content: this.$page.post.coverImage.dataUri },
+                    { name: "twitter:image", content: "https://recenzjeseriali.pl" + this.$page.post.coverImage.src },
                     { name: "twitter:creator", content: "@egocentryk" },
-                    { property: "og:image", content: this.$page.post.coverImage.dataUri }
+                    { name: "twitter:site", content: "https://twitter.com/egocentryk" },
+                    { property: "og:image", content: "https://recenzjeseriali.pl" + this.$page.post.coverImage.src },
+                    { property: "og:locale", content: "pl_PL" },
+                    { property: "og:url", content: this.$route.path },
+                    { property: "og:type", content: "website" }
                 ]
             }
         }
