@@ -6,7 +6,7 @@
 
 module.exports = {
     siteName: 'Recenzje Seriali',
-    siteDescription: 'Prosty blog w Vue.js, korzystający z Gridsome i Markdown',
+    siteDescription: '',
 
     plugins: [
         {

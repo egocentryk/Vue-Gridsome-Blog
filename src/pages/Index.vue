@@ -56,8 +56,13 @@
             Pager
         },
 
-        metaInfo: {
-            title: 'Hello, world!'
+        metaInfo () {
+            return {
+                title: 'Hello World',
+                meta: [
+                    { key: 'description', name: 'description', content: 'Blog koncentrujący się na recenzjach seriali - tych dobrych i tych niekoniecznie wartych Waszego czasu.' }
+                ]
+            }
         }
     }
 </script>
