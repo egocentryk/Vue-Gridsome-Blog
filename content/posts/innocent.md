@@ -2,6 +2,8 @@
 title: Recenzja serialu Innocent
 date: 2019-08-09
 published: true
+tvshow: Innocent
+rating: 8
 tags: ['Innocent', 'Sundance Now', 'Dramat', 'Kryminał']
 series: false
 cover_image: ./images/innocent_001.jpg

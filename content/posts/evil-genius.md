@@ -2,6 +2,8 @@
 title: Recenzja serialu Evil Genius
 date: 2019-08-09
 published: true
+tvshow: Evil Genius
+rating: 9
 tags: ['Evil Genius', 'Netflix', 'Dokument', 'Kryminał']
 series: false
 cover_image: ./images/evil_genius_001.jpg

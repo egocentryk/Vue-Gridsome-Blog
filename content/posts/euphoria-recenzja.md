@@ -2,6 +2,8 @@
 title: Recenzja serialu Euphoria
 date: 2019-08-08
 published: true
+tvshow: Euphoria
+rating: 9
 tags: ['Euphoria', 'HBO', 'Dramat']
 series: false
 cover_image: ./images/euphoria_001.jpg

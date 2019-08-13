@@ -2,6 +2,8 @@
 title: Recenzja 1. sezonu serialu Secret City
 date: 2019-08-09
 published: true
+tvshow: Secret City
+rating: 7
 tags: ['Secret City', 'Showcase', 'Dramat', 'Thriller']
 series: false
 cover_image: ./images/secret_city_001.jpg

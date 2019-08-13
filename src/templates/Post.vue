@@ -56,6 +56,46 @@
                     { property: "og:locale", content: "pl_PL" },
                     { property: "og:url", content: "https://recenzjeseriali.pl" + this.$route.path },
                     { property: "og:type", content: "website" }
+                ],
+                script: [
+                    {
+                        innerHTML: JSON.stringify({
+                            "@context": "http://schema.org/",
+                            "@type": "Review",
+                            "itemReviewed": {
+                                "@type": "TVSeries",
+                                "name": this.$page.post.tvshow
+                            },
+                            "author": {
+                                "@type": "Person",
+                                "name": "egocentryk"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": this.$page.post.rating,
+                                "bestRating": "10",
+                                "worstRating": "1"
+                            },
+                            "reviewBody": this.$page.post.description,
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Recenzje Seriali",
+                                "sameAs":"https://recenzjeseriali.pl/",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://recenzjeseriali.pl/assets/static/logo.3d7a5be.dd603f0.png",
+                                    "width": 120,
+                                    "height": 120
+                                }
+                            },
+                            "image": {
+                                "@type": "ImageObject",
+                                "url": "https://recenzjeseriali.pl" + this.$page.post.coverImage.src,
+                                "width": 860,
+                                "height": 485
+                            }
+                        }), type: 'application/ld+json'
+                    }
                 ]
             }
         }
@@ -66,6 +106,8 @@
     query Post ($path: String!) {
         post: post (path: $path) {
             title
+            tvshow
+            rating
             path
             date (format: "D. MMMM YYYY")
             timeToRead

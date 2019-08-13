@@ -2,6 +2,8 @@
 title: Recenzja serialu Years and Years
 date: 2019-08-12
 published: true
+tvshow: Years and Years
+rating: 8
 tags: ['Years and Years', 'BBC One', 'Dramat', 'Science Fiction']
 series: false
 cover_image: ./images/years_and_years_001.jpg
