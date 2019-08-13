@@ -45,7 +45,10 @@
 
         metaInfo () {
             return {
-                title: this.$page.tag.title
+                title: this.$page.tag.title,
+                meta: [
+                    { key: 'description', name: 'description', content: this.$page.tag.title + ' - recenzje seriali oznaczonych tagiem ' + this.$page.tag.title }
+                ]
             }
         }
     }
