@@ -2,6 +2,7 @@
 title: Recenzja serialu Evil Genius
 date: 2019-08-09
 published: true
+author: egocentryk
 tvshow: Evil Genius
 rating: 9
 tags: ['Evil Genius', 'Netflix', 'Dokument', 'Kryminał']

@@ -2,6 +2,7 @@
 title: Recenzja 1. sezonu serialu Impulse
 date: 2019-08-09
 published: true
+author: egocentryk
 tvshow: Impulse
 rating: 8
 tags: ['Impulse', 'YouTube Originals', 'Dramat', 'Science Fiction']

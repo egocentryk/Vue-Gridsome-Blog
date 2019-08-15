@@ -2,6 +2,7 @@
 title: Recenzja 1. sezonu serialu Secret City
 date: 2019-08-09
 published: true
+author: egocentryk
 tvshow: Secret City
 rating: 7
 tags: ['Secret City', 'Showcase', 'Dramat', 'Thriller']

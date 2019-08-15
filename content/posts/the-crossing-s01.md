@@ -2,6 +2,7 @@
 title: Recenzja 1. sezonu serialu The Crossing
 date: 2019-08-10
 published: true
+author: egocentryk
 tvshow: The Crossing
 rating: 6
 tags: ['The Crossing', 'ABC', 'Dramat', 'Science Fiction']

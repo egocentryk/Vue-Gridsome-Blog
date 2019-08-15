@@ -2,6 +2,7 @@
 title: Recenzja 2. sezonu serialu Big Little Lies
 date: 2019-08-14
 published: true
+author: egocentryk
 tvshow: Big Little Lies
 rating: 6
 tags: ['Big Little Lies', 'HBO', 'Dramat', 'Kryminał']

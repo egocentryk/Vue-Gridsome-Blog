@@ -106,6 +106,7 @@
     query Post ($path: String!) {
         post: post (path: $path) {
             title
+            author
             tvshow
             rating
             path

@@ -2,6 +2,7 @@
 title: Recenzja serialu Euphoria
 date: 2019-08-08
 published: true
+author: egocentryk
 tvshow: Euphoria
 rating: 9
 tags: ['Euphoria', 'HBO', 'Dramat']

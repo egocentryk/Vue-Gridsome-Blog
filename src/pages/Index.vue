@@ -23,6 +23,7 @@
                 node {
                     id
                     title
+                    author
                     path
                     tags {
                         id

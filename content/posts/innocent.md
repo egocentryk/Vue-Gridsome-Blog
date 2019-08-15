@@ -2,6 +2,7 @@
 title: Recenzja serialu Innocent
 date: 2019-08-09
 published: true
+author: egocentryk
 tvshow: Innocent
 rating: 8
 tags: ['Innocent', 'Sundance Now', 'Dramat', 'Kryminał']

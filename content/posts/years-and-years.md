@@ -2,6 +2,7 @@
 title: Recenzja serialu Years and Years
 date: 2019-08-12
 published: true
+author: egocentryk
 tvshow: Years and Years
 rating: 8
 tags: ['Years and Years', 'BBC One', 'Dramat', 'Science Fiction']
