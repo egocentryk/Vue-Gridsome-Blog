@@ -25,6 +25,29 @@ module.exports = {
                     }
                 }
             }
+        },
+
+        {
+            use: 'gridsome-plugin-rss',
+            options: {
+                contentTypeName: 'Post',
+                feedOptions: {
+                    title: 'Recenzje Seriali',
+                    feed_url: 'https://recenzjeseriali.pl/rss.xml',
+                    site_url: 'https://recenzjeseriali.plm'
+                },
+                feedItemOptions: node => ({
+                    title: node.title,
+                    description: node.description,
+                    url: 'https://recenzjeseriali.pl/' + node.slug,
+                    author: node.author,
+                    date: node.date
+                }),
+                output: {
+                    dir: './static',
+                    name: 'rss.xml'
+                }
+            }
         }
     ],
 
