@@ -31,6 +31,7 @@ module.exports = {
             use: 'gridsome-plugin-rss',
             options: {
                 contentTypeName: 'Post',
+                latest: true,
                 feedOptions: {
                     title: 'Recenzje Seriali',
                     feed_url: 'https://recenzjeseriali.pl/rss.xml',
