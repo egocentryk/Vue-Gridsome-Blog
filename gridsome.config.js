@@ -35,7 +35,7 @@ module.exports = {
                 feedOptions: {
                     title: 'Recenzje Seriali',
                     feed_url: 'https://recenzjeseriali.pl/rss.xml',
-                    site_url: 'https://recenzjeseriali.plm'
+                    site_url: 'https://recenzjeseriali.pl'
                 },
                 feedItemOptions: node => ({
                     title: node.title,
