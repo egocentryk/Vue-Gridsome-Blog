@@ -16,6 +16,12 @@
 
             <div class="post__content" v-html="$page.post.content" />
 
+            <cite>~ {{ this.$page.post.author }}</cite>
+
+            <div class="post__rating">
+                <h4>{{ this.$page.post.rating }} <span>/ <i>10</i></span></h4>
+            </div>
+
             <div class="post__footer">
                 <PostTags :post="$page.post" />
             </div>
@@ -164,6 +170,32 @@
                 margin-left: calc(var(--space) * -1);
                 display: block;
                 max-width: none;
+            }
+        }
+
+        cite {
+            font-size: 0.7rem;
+            font-style: italic;
+        }
+
+        &__rating {
+            margin-top: -20px;
+            text-align: left;
+
+            h4 {
+                line-height: 1rem;
+                font-size: 3rem;
+            }
+
+            h4 span {
+                font-size: 0.5rem;
+                color: #777;
+            }
+
+            h4 span i {
+                font-size: 1rem !important;
+                color: var(--title-color);
+                margin-left: 5px;
             }
         }
     }
