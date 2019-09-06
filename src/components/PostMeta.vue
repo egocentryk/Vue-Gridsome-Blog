@@ -1,6 +1,6 @@
 <template>
     <div class="post-meta">
-        Opublikowano {{ post.date }}.
+        Opublikowano {{ formattedPublishDate }}.
         <template v-if="post.timeToRead">
             <strong>{{ post.timeToRead }} min - czas czytania.</strong>
         </template>
@@ -8,8 +8,17 @@
 </template>
 
 <script>
+    import moment from 'moment'
+    import 'moment/locale/pl'
+
     export default {
-        props: ['post']
+        props: ['post'],
+
+        computed: {
+            formattedPublishDate() {
+                return moment(this.post.date).format('DD MMMM, YYYY');
+            }
+        }
     }
 </script>
 
