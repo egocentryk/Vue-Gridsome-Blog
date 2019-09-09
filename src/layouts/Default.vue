@@ -16,7 +16,7 @@
         </main>
 
         <footer class="footer">
-            <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}<br /> Made in Vue.js with love!</span>
+            <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}<br /> Built with<span class="heart"></span>in Vue.js / Gridsome!</span>
         </footer>
     </div>
 </template>
@@ -79,6 +79,35 @@
 
         a {
             color: currentColor;
+        }
+    }
+
+    .heart {
+        background-color: red;
+        display: inline-block;
+        height: 8px;
+        margin: 0 10px;
+        position: relative;
+        top: 0;
+        transform: rotate(-45deg);
+        width: 8px;
+
+        &:before,
+        &:after {
+            content: "";
+            background-color: red;
+            border-radius: 50%;
+            height: 8px;
+            position: absolute;
+            width: 8px;
+        }
+        &:before {
+            top: -4px;
+            left: 0;
+        }
+        &:after {
+            left: 4px;
+            top: 0;
         }
     }
 </style>

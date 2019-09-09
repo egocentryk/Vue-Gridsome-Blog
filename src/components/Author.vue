@@ -7,7 +7,8 @@
 		</h1>
 
 		<p class="author__intro">
-			Blog koncentrujący się na recenzjach seriali - tych dobrych i tych niekoniecznie wartych Waszego czasu.
+			Blog koncentrujący się na recenzjach seriali - tych dobrych i tych niekoniecznie wartych Waszego czasu. 
+            Masz pytania? Chcesz do nas dołączyć? Napisz na adres: kontakt [at] egocentryk.pl.
 		</p>
 
 		<p class="author__links">
@@ -17,7 +18,6 @@
             <a title="The Naked Director" href="https://www.imdb.com/title/tt10477528/">The Naked Director</a> 
             <a title="Band of Brothers" href="https://www.imdb.com/title/tt0185906/">Band of Brothers</a>
 		</p>
-
 	</div>
 </template>
 
