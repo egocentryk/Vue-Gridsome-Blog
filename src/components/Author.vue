@@ -13,10 +13,10 @@
 
 		<p class="author__links">
             Aktualnie oglądane:<br />
-            <a title="Succession" href="https://www.imdb.com/title/tt7660850/">Succession</a> 
-            <a title="In Treatment" href="https://www.imdb.com/title/tt0835434/">In Treatment</a> 
-            <a title="The Naked Director" href="https://www.imdb.com/title/tt10477528/">The Naked Director</a> 
             <a title="Band of Brothers" href="https://www.imdb.com/title/tt0185906/">Band of Brothers</a>
+            <a title="The Capture" href="https://www.imdb.com/title/tt8201186/">The Capture</a> 
+            <a title="The Spy" href="https://www.imdb.com/title/tt5952634/">The Spy</a> 
+            <a title="The Naked Director" href="https://www.imdb.com/title/tt10477528/">The Naked Director</a> 
 		</p>
 	</div>
 </template>

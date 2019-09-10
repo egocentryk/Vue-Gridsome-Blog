@@ -59,7 +59,7 @@
 
         metaInfo () {
             return {
-                title: 'Hello World',
+                title: 'Seriale, Recenzje, Opinie',
                 meta: [
                     { key: 'description', name: 'description', content: 'Blog koncentrujący się na recenzjach seriali - tych dobrych i tych niekoniecznie wartych Waszego czasu.' }
                 ]

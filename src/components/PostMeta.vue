@@ -16,7 +16,7 @@
 
         computed: {
             formattedPublishDate() {
-                return moment(this.post.date).format('DD MM, YYYY');
+                return moment(this.post.date).format('DD MMMM, YYYY');
             }
         }
     }
