@@ -56,4 +56,4 @@ A mogłoby wyglądać to lepiej, wystarczyło skrócić ilość epizodów o poł
 
 Unbelievable nie spełnia oczekiwań, jakie w tym konkretnym serialu pokładałem. Scenariusz akcentuje elementy historii, które są wyjątkowo mało istotne, marginalizując przy tym to, co jest naprawdę w tym wszystkim ważne. Cierpi na tym ogólny obraz i sam widz, który karmiony jest naprawdę zbędną treścią - do tego uformowaną pod konkretną, niczym nieuzasadnioną tezę.
 
-Wyszło to więc wszystko tak sobie, bo i ile technicznie niewiele tej produkcji można zarzucić, to w wielu pozostałych aspektach jest to po prostu zwyczajny, przy tym nadmiernie rozdmuchany medialnie średniak.
+Wyszło to więc wszystko tak sobie, bo o ile technicznie niewiele tej produkcji można zarzucić, to w wielu pozostałych aspektach jest to po prostu zwyczajny, przy tym nadmiernie rozdmuchany medialnie średniak.
