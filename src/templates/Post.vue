@@ -11,7 +11,7 @@
     
         <div class="post content-box">
             <div class="post__header">
-                <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage" />
+                <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
             </div>
 
             <div class="post__content" v-html="$page.post.content" />
@@ -55,10 +55,10 @@
                     { name: "twitter:card", content: "summary_large_image" },
                     { name: "twitter:description", content: this.$page.post.description },
                     { name: "twitter:title", content: this.$page.post.title },
-                    { name: "twitter:image", content: "https://recenzjeseriali.pl" + this.$page.post.coverImage.src },
+                    { name: "twitter:image", content: "https://recenzjeseriali.pl" + this.$page.post.cover_image.src },
                     { name: "twitter:creator", content: "@egocentryk" },
                     { name: "twitter:site", content: "https://twitter.com/egocentryk" },
-                    { property: "og:image", content: "https://recenzjeseriali.pl" + this.$page.post.coverImage.src },
+                    { property: "og:image", content: "https://recenzjeseriali.pl" + this.$page.post.cover_image.src },
                     { property: "og:locale", content: "pl_PL" },
                     { property: "og:url", content: "https://recenzjeseriali.pl" + this.$route.path },
                     { property: "og:type", content: "website" }
@@ -96,7 +96,7 @@
                             },
                             "image": {
                                 "@type": "ImageObject",
-                                "url": "https://recenzjeseriali.pl" + this.$page.post.coverImage.src,
+                                "url": "https://recenzjeseriali.pl" + this.$page.post.cover_image.src,
                                 "width": 860,
                                 "height": 485
                             }
@@ -125,7 +125,7 @@
             }
             description
             content
-            coverImage (width: 860, blur: 10)
+            cover_image (width: 860, blur: 10)
         }
     }
 </page-query>
