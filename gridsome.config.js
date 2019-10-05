@@ -43,7 +43,7 @@ module.exports = {
                 feedItemOptions: node => ({
                     title: node.title,
                     description: node.description,
-                    url: 'https://recenzjeseriali.pl/' + node.slug,
+                    url: 'https://recenzjeseriali.pl' + node.path,
                     author: node.author,
                     date: node.date
                 }),
