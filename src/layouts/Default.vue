@@ -1,113 +1,115 @@
 <template>
-    <div id="app">
+  <div id="app">
+    <header class="header">
+      <div class="header__left">
+        <Logo v-if="showLogo" />
+      </div>
 
-        <header class="header">
-            <div class="header__left">
-                <Logo v-if="showLogo" /> 
-            </div>
-      
-            <div class="header__right">        
-                <ToggleTheme />
-            </div>
-        </header>
+      <div class="header__right">
+        <ToggleTheme />
+      </div>
+    </header>
 
-        <main class="main">
-            <slot/>
-        </main>
+    <main class="main">
+      <slot />
+    </main>
 
-        <footer class="footer">
-            <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}<br /> Built with<span class="heart"></span>in Vue.js / Gridsome!</span>
-        </footer>
-    </div>
+    <footer class="footer">
+      <span class="footer__copyright"
+        >Copyright © {{ new Date().getFullYear() }}<br />
+        Built with<span class="heart"></span>in Vue.js / Gridsome!</span
+      >
+    </footer>
+  </div>
 </template>
 
 <script>
-    import Logo from '~/components/Logo.vue'
-    import ToggleTheme from '~/components/ToggleTheme.vue'
+import Logo from "~/components/Logo.vue";
+import ToggleTheme from "~/components/ToggleTheme.vue";
 
-    export default {
-        props: {
-            showLogo: { default: true }
-        },
+export default {
+  props: {
+    showLogo: { default: true },
+  },
 
-        components: {
-            Logo,
-            ToggleTheme
-        }
-    }
+  components: {
+    Logo,
+    ToggleTheme,
+  },
+};
 </script>
 
 <style lang="scss">
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: var(--header-height);
-        padding: 0 calc(var(--space) / 2);
-        top:0;
-        z-index: 10;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: var(--header-height);
+  padding: 0 calc(var(--space) / 2);
+  top: 0;
+  z-index: 10;
 
-        &__left,
-        &__right {
-            display: flex;
-            align-items: center;
-        }
+  &__left,
+  &__right {
+    display: flex;
+    align-items: center;
+  }
 
-        @media screen and (min-width: 1300px) {
-            //Make header sticky for large screens
-            position: sticky;
-            width: 100%;
-        }
-    }
+  @media screen and (min-width: 1300px) {
+    //Make header sticky for large screens
+    position: sticky;
+    width: 100%;
+  }
+}
 
-    .main {
-        margin: 0 auto;
-        padding: 1.5vw 15px 0;
-    }
+.main {
+  margin: 0 auto;
+  padding: 1.5vw 15px 0;
+}
 
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: calc(var(--space) / 2);
-        text-align: center;
-        font-size: .8em;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--space) / 2);
+  text-align: center;
+  font-size: 0.8em;
 
-        > span {
-            margin: 0 .35em;
-        }
+  > span {
+    margin: 0 0.35em;
+  }
 
-        a {
-            color: currentColor;
-        }
-    }
+  a {
+    color: currentColor;
+  }
+}
 
-    .heart {
-        background-color: red;
-        display: inline-block;
-        height: 8px;
-        margin: 0 10px;
-        position: relative;
-        top: 0;
-        transform: rotate(-45deg);
-        width: 8px;
+.heart {
+  background-color: red;
+  display: inline-block;
+  height: 8px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 8px;
 
-        &:before,
-        &:after {
-            content: "";
-            background-color: red;
-            border-radius: 50%;
-            height: 8px;
-            position: absolute;
-            width: 8px;
-        }
-        &:before {
-            top: -4px;
-            left: 0;
-        }
-        &:after {
-            left: 4px;
-            top: 0;
-        }
-    }
+  &:before,
+  &:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 8px;
+    position: absolute;
+    width: 8px;
+  }
+  &:before {
+    top: -4px;
+    left: 0;
+  }
+  &:after {
+    left: 4px;
+    top: 0;
+  }
+}
 </style>
