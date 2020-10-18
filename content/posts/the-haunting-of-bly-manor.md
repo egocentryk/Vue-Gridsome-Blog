@@ -52,6 +52,6 @@ Ale Bly Manor to również nowe twarze - [T'Nia Miller](https://www.imdb.com/nam
 
 ![Image](./images/the_haunting_of_bly_manor_006.jpg)
 
-The Haunting of Bly Manor nie jest serialem idealnym. Ale to kawał dobrego rzemiosła, które cechuje się poważnym podejściem do przedstawianego przez siebie tematu. Owszem, to nie jest horror, ale to jedna z najpiększniejszych historii miłosnych o duchach, jaką miałem przyjemność oglądać.
+The Haunting of Bly Manor nie jest serialem idealnym. Ale to kawał dobrego rzemiosła, które cechuje się poważnym podejściem do przedstawianego przez siebie tematu. Owszem, to nie jest horror, ale to jedna z najpiękniejszych historii miłosnych o duchach, jaką miałem przyjemność oglądać.
 
 Perfectly splendid!
