@@ -21,19 +21,19 @@
 
     <p class="author__links">
       Aktualnie oglądane:<br />
-      <a title="Band of Brothers" href="https://www.imdb.com/title/tt0185906/"
-        >Band of Brothers</a
+      <a title="To the Lake" href="https://www.imdb.com/title/tt9151230/"
+        >To the Lake</a
       >
-      <a title="The Capture" href="https://www.imdb.com/title/tt8201186/"
-        >The Capture</a
+      <a title="Tehran" href="https://www.imdb.com/title/tt10577736/"
+        >Tehran</a
       >
-      <a title="The Spy" href="https://www.imdb.com/title/tt5952634/"
-        >The Spy</a
+      <a title="The Vow" href="https://www.imdb.com/title/tt10222764/"
+        >The Vow</a
       >
       <a
-        title="The Naked Director"
-        href="https://www.imdb.com/title/tt10477528/"
-        >The Naked Director</a
+        title="Deadwind"
+        href="https://www.imdb.com/title/tt6616260/"
+        >Deadwind</a
       >
     </p>
   </div>
