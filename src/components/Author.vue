@@ -15,7 +15,7 @@
 
     <p class="author__intro">
       Blog koncentrujący się na recenzjach seriali - tych dobrych i tych
-      niekoniecznie wartych Waszego czasu. Masz pytania? Chcesz do nas dołączyć?
+      niekoniecznie wartych Waszego czasu. Masz pytania? Chcesz opublikować tutaj swoją recenzję?<br />
       Napisz na adres: kontakt [at] egocentryk.pl.
     </p>
 

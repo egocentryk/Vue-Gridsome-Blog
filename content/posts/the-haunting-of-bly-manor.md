@@ -36,7 +36,7 @@ I to jest też moment, w którym zaprezentowana widzom historia zaczyna pokazywa
 
 ![Image](./images/the_haunting_of_bly_manor_004.jpg)
 
-Poszczególne wątki zaprezentowane w początkowych epizodach zaczynają się ze sobą zazębiać - te subtelne sygnały twórców antologii przestawiane nam od pierwszych odcinków nagle zaczynają mieć sens, a sama opowieść? Ta zaczyna wciągać jak bagno.
+Poszczególne wątki zaprezentowane w początkowych epizodach zaczynają się ze sobą zazębiać - te subtelne sygnały twórców antologii przedstawiane nam od pierwszych odcinków nagle zaczynają mieć sens, a sama opowieść? Ta zaczyna wciągać jak bagno.
 
 Witajcie w Bly, chciałbym rzecz ponownie - witajcie w jednej z najpiękniejszych miłosnych opowieści o duchach, jaką przyjdzie Wam przeżyć. The Haunting of Bly Manor to naprawdę dobrze rozpisana historia o bezgranicznej miłości, smutku, żałobie, nienawiści i przede wszystkim - nadziei. To iście wiktoriański romantyzm wsparty lekką dawką grozy, która nie tyle straszy, ale systematycznie potęguje uczucie niepokoju.
 
